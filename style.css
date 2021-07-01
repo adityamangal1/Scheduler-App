@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+body::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: url(pic1.png) no-repeat center center/cover;
+    z-index: -1;
+}
+
+h1{
+    border: 2px solid black;
+    background: aquamarine;
+    font-family: 'Baloo Tamma 2', cursive;
+    border-radius: 12px;
+    margin-bottom: 33px;
+    width: 39%;
+}
+
+.adi{
+    border: 2px solid black;
+    background: aquamarine;
+    font-family: 'Baloo Tamma 2', cursive;
+    border-radius: 12px;
+    margin-bottom: 33px;
+    border-radius: 9px;
+    width: 17%;
+    font-size: 25px;
+}
